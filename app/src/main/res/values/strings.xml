@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EvaluationOfTrainer</string>
+    <string name="action_settings">Settings</string>
+    <string name="org_name">Bangladesh Academy for Rural Development</string>
+    <string name="address">Kotbari, Comilla</string>
+    <string name="form_name">SPEAKER EVALUATION FORM</string>
+    <string name="login">Login Screen</string>
+    <string name="showcase">Courses That are available for you.</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_password_conformation">Confirm Password</string>
+    <string name="button_done">DONE</string>
+    <string name="text_change_password">CHANGE PASSWORD</string>
+    <string name="text_add_session">ADD SESSION</string>
+    <string name="text_add_trainer">ADD TRAINER</string>
+    <string name="text_add_course">ADD COURSE</string>
+</resources>

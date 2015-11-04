@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/monitor_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONITOR LOGIN"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:onClick="monitorLogin"/>
+    <Button
+        android:id="@+id/trainee_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAINEE LOGIN"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:onClick="traineeLogin"/>
+</LinearLayout>

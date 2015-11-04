@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/add_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add_course"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:onClick="addCourse"/>
+
+    <Button
+        android:id="@+id/add_trainer"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add_trainer"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:onClick="addTrainer"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/add_session"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add_session"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:onClick="addSession"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/change_password"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_change_password"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:onClick="changePassword"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et_trainer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trainer Name"
+        android:gravity="center"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_trainer_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Trainer Description"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/submit_trainer"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:onClick="add"/>
+        <Button
+            android:id="@+id/edit_trainer"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:onClick="edit"/>
+
+        <Button
+            android:id="@+id/delete_trainer"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DELETE"
+            android:onClick="delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/trainer_button_back"
+            android:text="BACK"
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="wrap_content"
+            android:onClick="goBack"/>
+        <Button
+            android:id="@+id/trainer_button_home"
+            android:text="HOME"
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="wrap_content"
+            android:onClick="goHome"/>
+
+    </LinearLayout>
+
+</LinearLayout>
